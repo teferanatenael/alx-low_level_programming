@@ -4,6 +4,6 @@ int main(void)
 /**
  * Hello c
  */
-	puts("\"programming is like building a multilingual puzzels");
-	return(0);
+	puts("\"programming is like building a multilingual puzzel");
+	return (0);
 }
