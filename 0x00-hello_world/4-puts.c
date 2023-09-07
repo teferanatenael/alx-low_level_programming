@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* Hello C
+*Hello nati
 */
 int main(void)
 {
