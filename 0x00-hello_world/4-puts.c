@@ -1,9 +1,6 @@
-#include <stdio.h>
+#include <studio.h>
 int main(void)
 {
-/**
- * Hello c
- */
-	puts("\"programming is like building a multilingual puzzle");
-	return (0);
+	puts(*\"Programming is like building a multilingual puzzels*);
+	return 0;
 }
