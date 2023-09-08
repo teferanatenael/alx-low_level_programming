@@ -2,7 +2,7 @@
 /**
 *main -Entry point
 *
-*Description: 'the program's description'
+*Description: the programs description
 *
 *Return: Always 0 (Success)
 *
