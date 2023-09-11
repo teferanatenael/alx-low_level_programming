@@ -9,30 +9,23 @@
 */
 int main(void)
 {
-	int num_1, num_2;
+	int digit1, digit2;
 
-	num_1 = '0';
-	num_2 = '1';
-
-	while (num_1 <= '9')
+	for (digit1 = 0; digit1 < 9; digit1++)
 	{
-		while (num_2 <= '9')
+		for (digit2 = digit1 + 1; digit2 < 10; digit2++)
 		{
-			if (num_1 <= num_2)
-			{
-				putchar(num_1);
-				putchar(num_2);
-				if (num_1 != '9' || (num_1 == '9' && num_2 != '9'))
-				{
-					putchar(',');
-					putchar(' ');
-				}
-			}
-			num_2++;
+			putchar((digit1 % 10) + '0');
+			putchar((digit2 % 10) + '0');
+
+			if (digit1 == 8 && digit2 == 9)
+				continue;
+
+			putchar(',');
+			putchar(' ');
 		}
-		num_1++;
-		num_2 = '0';
 	}
 	putchar('\n');
 	return (0);
+
 }
