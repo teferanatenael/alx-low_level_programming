@@ -1,2 +1,1 @@
-0x00. C - Hello, World
-# alx-low_level_programming
+0x06-pointers_arrays_strings
